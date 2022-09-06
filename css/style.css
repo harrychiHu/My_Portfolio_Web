@@ -522,8 +522,10 @@ p {
 .bigger-font {
   font-size: 50px;
 }
+.white-color h1{
+  color: #fff
+}
 .white-color,
-.white-color h1,
 .white-color h2,
 .white-color h3,
 .white-color h4,
@@ -1998,6 +2000,10 @@ blockquote {
   padding-top: 5px;
   padding-left: 58px;
 }
+.contactMe{
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 768px) {
   .contact-info {
     padding-left: 0px;
@@ -2014,6 +2020,7 @@ blockquote {
   color: #909090;
   margin: auto;
   margin-top: 15px;
+  text-align: center;
 }
 .site-footer .copyright a {
   color: #a9a9a9;
